@@ -19,6 +19,7 @@
   <style>
     *{
       transition: 0.4s;
+      outline: 1px red dashed;
     }
   </style>
 </head>
@@ -26,31 +27,39 @@
     <nav class="fixed top-0 left-0 h-20 w-screen  invisible md:visible z-40 bg-slate-40 py-3 bg-white">
       <div class="relative flex justify-between items-center w-full px-20" >
         <img src="/src/assets/logo_harisenin.svg" class="h-6"/>
-        <div class="flex items-center">
-            <ul class="flex">
-                <li id="programId" class="mx-5 text-md font-semibold text-slate-700 h-full">
-                  Program
-                  <!-- <div id="programDropdown" class="absolute d-flex mt-12 top-0 left-0 w-screen h-64 bg-slate-700 ">
+        <div class="flex items-center h-full">
+            <ul class="flex h-full">
+                <li id="programId" class="mx-5 text-md font-semibold text-slate-700 h-16 flex items-center">
+                  <div>
+                    Program
+                  </div>
+                  <div id="programDropdown" class="absolute d-flex mt-12 top-0 left-0 w-screen h-64 bg-white shadow-lg px-20 py-12" style="display: flex">
                     <div>
-                      <ul>
-                        <li>Bootcamp
-                          <div class="grid-rows-3">
+                      <ul class="flex">
+                        <li class="mx-2">
+                          <h1 class="font-semibold text-lg my-2">Bootcamp</h1>
+                          <div class="grid-rows-3 invisible" style="display: none">
                             <div>Belajar intensif dengan career coaching dan job-guarantee, hanya dalam 3-6 bulan.</div>
                             <div>Belajar intensif dengan career coaching dan job-guarantee, hanya dalam 3-6 bulan.</div>
                             <div>Belajar intensif dengan career coaching dan job-guarantee, hanya dalam 3-6 bulan.</div>
-
                           </div>
                         </li>
-                        <li>Proclass</li>
-                        <li>Video Course</li>
-                        <li>Event Workshop</li>
+                        <li class="mx-2">
+                          <h1 class="font-semibold text-lg my-2">Pro Class</h1>
+                        </li>
+                        <li class="mx-2">
+                          <h1 class="font-semibold text-lg my-2">Video Course</h1>
+                        </li>
+                        <li class="mx-2">
+                          <h1 class="font-semibold text-lg my-2">Event Workshop</h1>
+                        </li>
                       </ul>
                     </div>
 
-                  </div> -->
+                  </div>
                 </li>
-                <li id="corporateId" class="mx-5 text-md font-semibold text-slate-700">Corporate</li>
-                <li id="aboutId" class="mx-5 text-md font-semibold text-slate-700">About</li>
+                <li id="corporateId" class="mx-5 text-md font-semibold text-slate-700 h-16 flex items-center">Corporate</li>
+                <li id="aboutId" class="mx-5 text-md font-semibold text-slate-700 h-16 flex items-center">About</li>
             </ul>
             <button type="button" class="hover:shadow-xl font-semibold border px-6 py-2.5 rounded-md grid place-items-center border-emerald-600 text-sm text-emerald-600 mx-2">Login</button>
             <button type="button" class="hover:shadow-xl font-semibold px-6 py-2.5 rounded-md grid place-items-center bg-emerald-600 mx-2 text-white text-sm">Sign Up</button>

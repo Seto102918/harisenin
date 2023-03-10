@@ -32,13 +32,17 @@ const program = {
 const corporate = document.getElementById('corporateId');
 const about = document.getElementById('aboutId');
 
-program.button.addEventListener('mouseover', () => {
-    console.log('hover')
-    program.dropdown.style.display = 'none';
-})
+// program.button.addEventListener('mouseover', () => {
+//     console.log('hover')
+//     program.dropdown.style.display = 'flex';
+// })
 
-// [program.button, program.dropdown].addEventListener('mouseout', () => {
+// program.dropdown.addEventListener('mouseover', () => {
+//     console.log('hover')
+//     program.dropdown.style.display = 'flex';
+// })
+
+// program.button.addEventListener('mouseout', () => {
 //     console.log('leave')
 //     program.dropdown.style.display = 'none';
-
 // })
